@@ -1,4 +1,4 @@
-name: Ali
+name: Ali2
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
 jobs:	
   build:
     name: Start Building...
-    runs-on: windows-latest
+    runs-on: windows-2025
     timeout-minutes: 360
     
     steps:
