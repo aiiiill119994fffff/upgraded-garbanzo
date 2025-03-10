@@ -18,5 +18,14 @@ jobs:
       - name: Show Website
         run: cmd /c show.bat
 
+steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run show.bat script
+        run: |
+          C:\path\to\your\script\show.bat
+
       - name: Time Counter
         run: cmd /c loop.bat
+
